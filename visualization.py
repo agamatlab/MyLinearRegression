@@ -5,7 +5,7 @@ def showFigure(data_list):
     fig, axes = plt.subplots(2, 2, figsize=(12, 8))
 
     features = ["gender","race/ethnicity","parental level of education","test preparation course"]
-    subject =  "reading"
+    subject =  "math"
     for i in range(0,2):
         for j in range(0,2):
             feature = features[i*2+j]
